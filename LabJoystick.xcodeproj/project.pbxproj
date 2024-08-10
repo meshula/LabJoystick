@@ -14,6 +14,7 @@
 		019D79A42C67DB0D002CD27E /* LabJoystickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019D79A32C67DB0D002CD27E /* LabJoystickTests.swift */; };
 		019D79AE2C67DB0D002CD27E /* LabJoystickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019D79AD2C67DB0D002CD27E /* LabJoystickUITests.swift */; };
 		019D79B02C67DB0D002CD27E /* LabJoystickUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019D79AF2C67DB0D002CD27E /* LabJoystickUITestsLaunchTests.swift */; };
+		019D79BD2C67DC18002CD27E /* JoystickOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019D79BC2C67DC14002CD27E /* JoystickOverlayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		019D79A92C67DB0D002CD27E /* LabJoystickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabJoystickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		019D79AD2C67DB0D002CD27E /* LabJoystickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabJoystickUITests.swift; sourceTree = "<group>"; };
 		019D79AF2C67DB0D002CD27E /* LabJoystickUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabJoystickUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		019D79BC2C67DC14002CD27E /* JoystickOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoystickOverlayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		019D79902C67DB0B002CD27E /* LabJoystick */ = {
 			isa = PBXGroup;
 			children = (
+				019D79BC2C67DC14002CD27E /* JoystickOverlayView.swift */,
 				019D79912C67DB0B002CD27E /* LabJoystickApp.swift */,
 				019D79932C67DB0B002CD27E /* ContentView.swift */,
 				019D79952C67DB0C002CD27E /* Assets.xcassets */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				019D79BD2C67DC18002CD27E /* JoystickOverlayView.swift in Sources */,
 				019D79942C67DB0B002CD27E /* ContentView.swift in Sources */,
 				019D79922C67DB0B002CD27E /* LabJoystickApp.swift in Sources */,
 			);
